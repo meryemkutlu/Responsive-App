@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About </li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="assets/menu-icon.jpeg" alt="" class="menu-btn">
+    </nav>
+
+
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Events -->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="img" src="https://www.tekbasinadaolur.com/wp-content/uploads/2018/08/iHNK3LGMH.jpg" alt="">
+                <h4>Events Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo alias, distinctio provident dignissimos
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img class="img" src="https://www.buseterim.com.tr/upload/default/2020/6/19/yuruyus680.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo alias, distinctio provident dignissimos
+                    ?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis deserunt deleniti. Sequi alias
+                amet accusantium ratione, illo quaerat optio distinctio deleniti, doloremque ipsam architecto!</P>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas eaque illum sed nemo sequi tempore
+                    accusantium, libero commodi dolores doloremque sit quam! Sunt, nam et laborum laboriosam nesciunt
+                    voluptatum unde.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col ">
+                <div class="image-gallery">
+                    <img src="https://geziyoo.co/blog/wp-content/uploads/2020/04/Kamp-Foto%C4%9Fraflar%C4%B1-6.jpg">
+                    <img src="https://geziyoo.co/blog/wp-content/uploads/2020/04/Kamp-Foto%C4%9Fraflar%C4%B1-14.jpg">
+                    <img src="https://www.etstur.com/letsgo/wp-content/uploads/2020/09/kamp7.jpg">
+                    <img src="https://geziyoo.co/blog/wp-content/uploads/2020/04/Kamp-Foto%C4%9Fraflar%C4%B1-8.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorem asperiores vero autem corrupti
+        </p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
